@@ -202,7 +202,7 @@ body {
 
       .places:hover {
           color: #C69131 }
-          
+
 .home,
 .places {
   left: 1088px;
@@ -337,7 +337,7 @@ body {
   top: 111px;
   left: 34px;
   border-radius: var(--br-xl);
-  background-color: rgba(26, 26, 26, 0.43);
+  background-color: rgba(19, 19, 19, 0.43);
   width: 1372px;
   height: 541px;
 }
