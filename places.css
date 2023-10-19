@@ -1,0 +1,376 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-newyork: NewYork;
+  --font-helvetica-neue: "Helvetica Neue";
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-41xl: 60px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-21xl: 40px;
+  --font-size-7xl: 26px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-snow: #fcfaf9;
+  --color-gainsboro-100: #e5e5dc;
+  --color-dimgray: #616150;
+  --color-darkgoldenrod: #c69131;
+  --color-darkslategray: #3c3c30;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-3xs: 10px;
+}
+.screenshot-2023-10-08-at-243 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-snow);
+  width: 1440px;
+  height: 4023px;
+}
+.dolcit {
+  position: absolute;
+  top: 34px;
+  left: 637px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-newyork);
+  color: var(--color-darkgoldenrod);
+  display: inline-block;
+  width: 165px;
+  height: 43px;
+}
+.an-enchanting-italian {
+  top: 974px;
+  left: 114px;
+  font-size: var(--font-size-7xl);
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-darkslategray);
+  width: 533px;
+}
+.a-charming-seaside,
+.an-enchanting-italian,
+.la-restaurante {
+  position: absolute;
+  display: inline-block;
+}
+.la-restaurante {
+  top: 908px;
+  left: 106px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-newyork);
+  color: var(--color-darkgoldenrod);
+  text-align: center;
+  width: 275px;
+  -webkit-text-stroke: 0.1px #fff;
+}
+.a-charming-seaside {
+  top: 1700px;
+  left: 807px;
+  font-size: var(--font-size-7xl);
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-darkslategray);
+  width: 539px;
+}
+.image-21-icon {
+  position: absolute;
+  top: 1403px;
+  left: 42px;
+  border-radius: var(--br-3xs);
+  width: 685px;
+  height: 643px;
+  object-fit: cover;
+}
+.dal-mare,
+.indulge-in-a,
+.la-caff {
+  position: absolute;
+  display: inline-block;
+}
+.la-caff {
+  top: 1637px;
+  left: 807px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-newyork);
+  color: var(--color-darkgoldenrod);
+  width: 153px;
+  -webkit-text-stroke: 0.1px #fff;
+}
+.dal-mare,
+.indulge-in-a {
+  left: 114px;
+}
+.indulge-in-a {
+  top: 2428px;
+  font-size: var(--font-size-7xl);
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-darkslategray);
+  width: 542px;
+}
+.dal-mare {
+  top: 2362px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-newyork);
+  color: var(--color-darkgoldenrod);
+  width: 275px;
+  -webkit-text-stroke: 0.1px #fff;
+}
+.cc1c9b-f008-48d2-be1c-bfa476ae,
+.image-19-icon {
+  position: absolute;
+  top: 2843px;
+  left: 35px;
+  border-radius: var(--br-3xs);
+  height: 660px;
+}
+.image-19-icon {
+  width: 1368px;
+  object-fit: cover;
+}
+.cc1c9b-f008-48d2-be1c-bfa476ae {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), transparent);
+  width: 1369px;
+}
+.il-giardino-segreto {
+  position: absolute;
+  top: 3130px;
+  left: 372px;
+  font-size: var(--font-size-41xl);
+  font-family: var(--font-newyork);
+  color: var(--color-snow);
+  text-align: center;
+  display: inline-block;
+  width: 696px;
+  height: 68px;
+  -webkit-text-stroke: 0.2px #fff;
+}
+.cc1c9b-f008-48d2-be1c-bfa476ae-icon,
+.image-33-icon,
+.image-41-icon {
+  position: absolute;
+  top: 692px;
+  left: 716px;
+  border-radius: var(--br-3xs);
+  width: 690px;
+  height: 652px;
+  object-fit: cover;
+}
+.cc1c9b-f008-48d2-be1c-bfa476ae-icon,
+.image-41-icon {
+  top: 2106px;
+  left: 719px;
+  width: 684px;
+  height: 643px;
+}
+.image-41-icon {
+  top: 111px;
+  left: 34px;
+  border-radius: var(--br-xl);
+  width: 1372px;
+  height: 540px;
+}
+.about,
+.home,
+.places {
+  position: absolute;
+  top: 46px;
+  left: 1209px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+  color: var(--color-dimgray);
+  display: inline-block;
+  width: 57px;
+  height: 22px;
+}
+
+.about:hover {
+  color: #C69131 }
+
+  .home:hover {
+      color: #C69131 }
+
+      .places:hover {
+          color: #C69131 }
+          
+.home,
+.places {
+  left: 1088px;
+  width: 73px;
+  height: 27px;
+}
+.places {
+  left: 1330px;
+  width: 70px;
+}
+.frame-child {
+  position: absolute;
+  top: 3579px;
+  left: 0;
+  background-color: #7b8755;
+  width: 1440px;
+  height: 444px;
+}
+.dolcit1 {
+  position: absolute;
+  top: 3626px;
+  left: 74px;
+  font-size: 35px;
+  font-family: var(--font-newyork);
+  color: var(--color-white);
+  display: inline-block;
+  width: 146px;
+  height: 39px;
+  -webkit-text-stroke: 0.1px #fff;
+}
+.monday-closed {
+  margin-block-start: 0;
+  margin-block-end: 8px;
+}
+.monday-closed-container {
+  position: absolute;
+  top: 3717px;
+  left: 74px;
+  display: inline-block;
+  width: 359px;
+  height: 20px;
+}
+.blank-line {
+  margin: 0;
+}
+.t-39-334-container {
+  position: absolute;
+  top: 3709px;
+  left: 1055px;
+  display: inline-block;
+  width: 359px;
+  height: 19px;
+}
+.ss-amalfitana1 {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+.ss-amalfitana {
+  position: absolute;
+  top: 3805px;
+  left: 1055px;
+  display: inline-block;
+  width: 359px;
+  height: 19px;
+}
+.frame-item {
+  position: absolute;
+  top: 3964.5px;
+  left: 74px;
+  width: 1288px;
+  height: 1.5px;
+}
+.dolcit2,
+.tuesday-18h-container {
+  position: absolute;
+  display: inline-block;
+}
+.dolcit2 {
+  top: 3984px;
+  left: 663px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #dbdbd2;
+  width: 111px;
+  height: 18px;
+}
+.tuesday-18h-container {
+  top: 3751px;
+  left: 74px;
+  width: 359px;
+  height: 22px;
+}
+.wednesday-11h-container {
+  top: 3787px;
+  height: 16px;
+}
+.friday-saturday,
+.thursday-11h-container,
+.wednesday-11h-container {
+  position: absolute;
+  left: 74px;
+  display: inline-block;
+  width: 359px;
+}
+.thursday-11h-container {
+  top: 3824px;
+  height: 21px;
+}
+.friday-saturday {
+  top: 3859px;
+}
+.e-dolcitaitbookingscom {
+  top: 3742px;
+}
+.amalfi,
+.e-dolcitaitbookingscom,
+.italy {
+  position: absolute;
+  left: 1055px;
+  display: inline-block;
+  width: 359px;
+}
+.amalfi {
+  top: 3838px;
+  height: 19px;
+}
+.italy {
+  top: 3871px;
+}
+.cc1c9b-f008-48d2-be1c-bfa476ae1 {
+  position: absolute;
+  top: 111px;
+  left: 34px;
+  border-radius: var(--br-xl);
+  background-color: rgba(0, 0, 0, 0.43);
+  width: 1372px;
+  height: 541px;
+}
+.discover-all-our,
+.our-secret-garden {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+}
+.discover-all-our {
+  top: 324px;
+  left: 271px;
+  font-size: var(--font-size-41xl);
+  font-family: var(--font-newyork);
+  color: var(--color-snow);
+  width: 897px;
+  -webkit-text-stroke: 0.1px #fff;
+}
+.our-secret-garden {
+  top: 3217px;
+  left: 240px;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  width: 960px;
+}
+.screenshot-2023-10-08-at-243-parent {
+  position: relative;
+  width: 100%;
+  height: 4023px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gainsboro-100);
+  font-family: var(--font-helvetica-neue);
+}
