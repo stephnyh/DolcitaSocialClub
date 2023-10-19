@@ -337,7 +337,7 @@ body {
   top: 111px;
   left: 34px;
   border-radius: var(--br-xl);
-  background-color: rgba(0, 0, 0, 0.43);
+  background-color: #171717;
   width: 1372px;
   height: 541px;
 }
