@@ -1,0 +1,692 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-newyork: NewYork;
+  --font-helvetica-neue: "Helvetica Neue";
+  --font-roboto: Roboto;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-base: 16px;
+  --font-size-11xl: 30px;
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+  --font-size-36xl: 55px;
+  --font-size-17xl: 36px;
+
+  /* Colors */
+  --color-snow: #fcfaf9;
+  --color-gainsboro-100: #e5e5dc;
+  --color-gainsboro-200: #d9d9d9;
+  --color-darkgoldenrod: #c69131;
+  --color-darkslategray: #3c3c30;
+  --color-dimgray-100: #616150;
+  --color-dimgray-200: #60544d;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-3xs: 10px;
+}
+.screenshot-2023-10-08-at-243 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-snow);
+  width: 1440px;
+  height: 6609px;
+}
+.cc1c9b-f008-48d2-be1c-bfa476ae,
+.image-4-icon {
+  position: absolute;
+  top: 1269px;
+  left: 49px;
+  border-radius: var(--br-3xs);
+  width: 685px;
+  height: 643px;
+}
+.image-4-icon {
+  object-fit: cover;
+}
+.cc1c9b-f008-48d2-be1c-bfa476ae {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.live-music-dj,
+.our-happenings {
+  position: absolute;
+  left: 823px;
+  display: inline-block;
+}
+.our-happenings {
+  top: 1531px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-darkgoldenrod);
+  width: 180px;
+  -webkit-text-stroke: 0.1px #fff;
+}
+.live-music-dj {
+  top: 1562px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-newyork);
+  color: var(--color-dimgray-200);
+  width: 554px;
+}
+.our-happenings2,
+.wine-tastings-talks {
+  position: absolute;
+  left: 115px;
+  display: inline-block;
+}
+.our-happenings2 {
+  top: 2231px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-darkgoldenrod);
+  width: 180px;
+  -webkit-text-stroke: 0.1px #fff;
+}
+.wine-tastings-talks {
+  top: 2262px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-newyork);
+  color: var(--color-dimgray-200);
+  width: 554px;
+}
+.authentic-italian-cooking,
+.our-happenings3 {
+  position: absolute;
+  left: 821px;
+  display: inline-block;
+}
+.our-happenings3 {
+  top: 2931px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-darkgoldenrod);
+  width: 180px;
+  -webkit-text-stroke: 0.1px #fff;
+}
+.authentic-italian-cooking {
+  top: 2962px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-newyork);
+  color: var(--color-dimgray-200);
+  width: 554px;
+}
+.image-25-icon {
+  position: absolute;
+  top: 1970px;
+  left: 723px;
+  border-radius: var(--br-3xs);
+  width: 685px;
+  height: 643px;
+  object-fit: cover;
+}
+.immersed-in-the {
+  position: absolute;
+  top: 856px;
+  left: 88px;
+  font-size: 54px;
+  font-family: var(--font-newyork);
+  color: var(--color-darkgoldenrod);
+  text-align: center;
+  display: inline-block;
+  width: 1264px;
+  height: 290px;
+}
+.image-26-icon {
+  position: absolute;
+  top: 2669px;
+  left: 38px;
+  border-radius: var(--br-3xs);
+  width: 685px;
+  height: 643px;
+  object-fit: cover;
+}
+.about,
+.dolcit,
+.home,
+.places {
+  position: absolute;
+  display: inline-block;
+}
+
+.about:hover {
+  color: #C69131 }
+
+  .home:hover {
+      color: #C69131 }
+
+      .places:hover {
+          color: #C69131 }
+
+.dolcit {
+  top: 34px;
+  left: 635px;
+  font-size: 40px;
+  font-family: var(--font-newyork);
+  color: var(--color-darkgoldenrod);
+  width: 165px;
+  height: 42px;
+}
+.about,
+.home,
+.places {
+  top: 46px;
+  left: 1209px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+  color: var(--color-dimgray-100);
+  width: 73px;
+  height: 27px;
+}
+.home,
+.places {
+  left: 1088px;
+}
+.places {
+  left: 1330px;
+  width: 70px;
+}
+.are-you-planning,
+.contact-us,
+.events-news {
+  position: absolute;
+  top: 3979px;
+  left: 531px;
+  font-size: var(--font-size-36xl);
+  font-family: var(--font-newyork);
+  text-align: center;
+  display: inline-block;
+  width: 394px;
+  height: 57px;
+}
+.are-you-planning,
+.contact-us {
+  top: 5866px;
+  left: 314px;
+  width: 822px;
+}
+.contact-us {
+  top: 6037px;
+  left: 644px;
+  font-size: var(--font-size-xl);
+  width: 154px;
+  height: 37px;
+}
+.find-out-everything {
+  top: 4097px;
+  left: 445px;
+  font-size: 32px;
+  font-weight: 300;
+  width: 550px;
+  height: 35px;
+}
+.contact-us-to,
+.events,
+.find-out-everything,
+.stay-tuned-to {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+}
+.events {
+  top: 5816px;
+  left: 682px;
+  font-size: var(--font-size-11xl);
+  font-weight: 300;
+  color: var(--color-darkgoldenrod);
+  width: 86px;
+  height: 35px;
+}
+.contact-us-to,
+.stay-tuned-to {
+  font-size: var(--font-size-base);
+  width: 550px;
+}
+.stay-tuned-to {
+  top: 4158px;
+  left: 445px;
+  height: 35px;
+}
+.contact-us-to {
+  top: 5961px;
+  left: 450px;
+}
+.frame-child,
+.frame-inner,
+.frame-item {
+  position: absolute;
+  top: 4256px;
+  left: 979px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-200);
+  width: 357px;
+  height: 465px;
+}
+.frame-inner,
+.frame-item {
+  left: 558px;
+}
+.frame-inner {
+  left: 133px;
+}
+.each-month-we,
+.jan-2023 {
+  position: absolute;
+  display: inline-block;
+}
+.jan-2023 {
+  top: 4759px;
+  left: 136px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-darkgoldenrod);
+  text-align: center;
+  width: 88px;
+  height: 16px;
+}
+.each-month-we {
+  top: 4859px;
+  left: 139px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  width: 336px;
+  height: 57px;
+}
+.back-to-the {
+  top: 4798px;
+  left: 126px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-newyork);
+  text-align: center;
+  width: 286px;
+  height: 34px;
+}
+.back-to-the,
+.fev-2023,
+.we-want-to {
+  position: absolute;
+  display: inline-block;
+}
+.fev-2023 {
+  top: 4759px;
+  left: 574px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-darkgoldenrod);
+  text-align: center;
+  width: 88px;
+  height: 16px;
+}
+.we-want-to {
+  top: 4855px;
+  left: 577px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  width: 359px;
+  height: 57px;
+}
+.apr-2023,
+.valentines-day {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+}
+.valentines-day {
+  top: 4798px;
+  left: 563px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-newyork);
+  width: 220px;
+  height: 34px;
+}
+.apr-2023 {
+  top: 4755px;
+  left: 987px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-darkgoldenrod);
+  width: 88px;
+  height: 16px;
+}
+.easter-buffet,
+.the-most-important {
+  position: absolute;
+  top: 4851px;
+  left: 990px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 336px;
+  height: 57px;
+}
+.easter-buffet {
+  top: 4794px;
+  left: 979px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-newyork);
+  text-align: center;
+  width: 193px;
+  height: 34px;
+}
+.frame-child1,
+.rectangle-div {
+  position: absolute;
+  top: 5008px;
+  left: 769px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-200);
+  width: 357px;
+  height: 465px;
+}
+.frame-child1 {
+  left: 346px;
+}
+.dec-2023 {
+  top: 5511px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-darkgoldenrod);
+  text-align: center;
+  width: 88px;
+  height: 16px;
+}
+.christmas-eve,
+.dec-2023,
+.we-warmly-invite {
+  position: absolute;
+  left: 352px;
+  display: inline-block;
+}
+.we-warmly-invite {
+  top: 5611px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  width: 336px;
+  height: 57px;
+}
+.christmas-eve {
+  top: 5550px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-newyork);
+  width: 286px;
+  height: 34px;
+}
+.dec-20231 {
+  top: 5511px;
+  left: 785px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-darkgoldenrod);
+  text-align: center;
+  width: 88px;
+  height: 16px;
+}
+.dec-20231,
+.new-beginnings,
+.welcome-the-new {
+  position: absolute;
+  display: inline-block;
+}
+.welcome-the-new {
+  top: 5607px;
+  left: 788px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.02em;
+  width: 338px;
+  height: 57px;
+}
+.new-beginnings {
+  top: 5550px;
+  left: 785px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-newyork);
+  width: 220px;
+  height: 34px;
+}
+.frame-child2,
+.line-div {
+  position: absolute;
+  box-sizing: border-box;
+}
+.line-div {
+  top: 6058.75px;
+  left: 660.75px;
+  border-top: 0.5px solid #000;
+  width: 121.5px;
+  height: 0.5px;
+}
+.frame-child2 {
+  top: 4039.25px;
+  left: 548.25px;
+  border-top: 1.5px solid var(--color-darkgoldenrod);
+  width: 364.5px;
+  height: 1.5px;
+}
+.cc1c9b-f008-48d2-be1c-bfa476ae1,
+.image-33-icon {
+  position: absolute;
+  top: 3370px;
+  left: 38px;
+  border-radius: var(--br-xl);
+  width: 1372px;
+  height: 540px;
+}
+.image-33-icon {
+  object-fit: cover;
+}
+.cc1c9b-f008-48d2-be1c-bfa476ae1 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.48), transparent);
+}
+.discover-all-our {
+  position: absolute;
+  top: 3582px;
+  left: 275px;
+  font-size: 60px;
+  font-family: var(--font-newyork);
+  color: var(--color-snow);
+  text-align: center;
+  display: inline-block;
+  width: 897px;
+  -webkit-text-stroke: 0.1px #fff;
+}
+.image-34-icon,
+.image-35-icon,
+.image-36-icon,
+.image-37-icon,
+.image-38-icon {
+  position: absolute;
+  top: 4256px;
+  left: 134px;
+  border-radius: var(--br-3xs);
+  width: 357px;
+  height: 466.31px;
+  object-fit: cover;
+}
+.image-35-icon,
+.image-36-icon,
+.image-37-icon,
+.image-38-icon {
+  left: 558px;
+  height: 465px;
+}
+.image-36-icon,
+.image-37-icon,
+.image-38-icon {
+  left: 980px;
+}
+.image-37-icon,
+.image-38-icon {
+  top: 5008px;
+  left: 346px;
+}
+.image-38-icon {
+  left: 769px;
+}
+.frame-child3 {
+  position: absolute;
+  top: 6165px;
+  left: 2px;
+  background-color: #7b8755;
+  width: 1440px;
+  height: 444px;
+}
+.dolcit1 {
+  position: absolute;
+  top: 6212px;
+  left: 76px;
+  font-size: 35px;
+  font-family: var(--font-newyork);
+  color: #fff;
+  display: inline-block;
+  width: 146px;
+  height: 39px;
+  -webkit-text-stroke: 0.1px #fff;
+}
+.monday-closed {
+  margin-block-start: 0;
+  margin-block-end: 8px;
+}
+.monday-closed-container {
+  position: absolute;
+  top: 6303px;
+  left: 76px;
+  color: var(--color-gainsboro-100);
+  display: inline-block;
+  width: 359px;
+  height: 20px;
+}
+.blank-line {
+  margin: 0;
+}
+.t-39-334-container {
+  position: absolute;
+  top: 6295px;
+  left: 1057px;
+  color: var(--color-gainsboro-100);
+  display: inline-block;
+  width: 359px;
+  height: 19px;
+}
+.ss-amalfitana1 {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+.ss-amalfitana {
+  position: absolute;
+  top: 6391px;
+  left: 1057px;
+  color: var(--color-gainsboro-100);
+  display: inline-block;
+  width: 359px;
+  height: 19px;
+}
+.line-icon {
+  position: absolute;
+  top: 6550.5px;
+  left: 76px;
+  width: 1288px;
+  height: 1.5px;
+}
+.dolcit2,
+.tuesday-18h-container {
+  position: absolute;
+  display: inline-block;
+}
+.dolcit2 {
+  top: 6570px;
+  left: 665px;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: #dbdbd2;
+  width: 111px;
+  height: 18px;
+}
+.tuesday-18h-container {
+  top: 6337px;
+  left: 76px;
+  color: var(--color-gainsboro-100);
+  width: 359px;
+  height: 22px;
+}
+.wednesday-11h-container {
+  top: 6373px;
+  height: 16px;
+}
+.friday-saturday,
+.thursday-11h-container,
+.wednesday-11h-container {
+  position: absolute;
+  left: 76px;
+  color: var(--color-gainsboro-100);
+  display: inline-block;
+  width: 359px;
+}
+.thursday-11h-container {
+  top: 6410px;
+  height: 21px;
+}
+.friday-saturday {
+  top: 6445px;
+}
+.e-dolcitaitbookingscom {
+  top: 6328px;
+}
+.amalfi,
+.e-dolcitaitbookingscom,
+.italy {
+  position: absolute;
+  left: 1057px;
+  color: var(--color-gainsboro-100);
+  display: inline-block;
+  width: 359px;
+}
+.amalfi {
+  top: 6424px;
+  height: 19px;
+}
+.italy {
+  top: 6457px;
+}
+.cc1c9b-f008-48d2-be1c-bfa476ae2,
+.image-40-icon {
+  position: absolute;
+  top: 106px;
+  left: 34px;
+  border-radius: var(--br-xl);
+  height: 626px;
+}
+.image-40-icon {
+  width: 1366px;
+  object-fit: cover;
+}
+.cc1c9b-f008-48d2-be1c-bfa476ae2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1372px;
+}
+.experience-the-essence {
+  position: absolute;
+  top: 357px;
+  left: 189px;
+  font-size: 65px;
+  font-family: var(--font-newyork);
+  color: var(--color-snow);
+  text-align: center;
+  display: inline-block;
+  width: 1062px;
+  -webkit-text-stroke: 0.1px #fff;
+}
+.screenshot-2023-10-08-at-243-parent {
+  position: relative;
+  width: 100%;
+  height: 6609px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+  font-family: var(--font-helvetica-neue);
+}
